@@ -2,41 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* SecureSight CCTV Dashboard Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Primary dark theme - deep navy background */
+    --background: 215 28% 17%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Cards and surfaces */
+    --card: 215 28% 20%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Popover and dropdown surfaces */
+    --popover: 215 28% 20%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary brand color - bright blue accent */
+    --primary: 213 94% 68%;
+    --primary-foreground: 215 28% 17%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary surfaces - slightly lighter than background */
+    --secondary: 215 25% 25%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted elements */
+    --muted: 215 25% 25%;
+    --muted-foreground: 215 15% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent color - green for success states */
+    --accent: 142 76% 36%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    /* Destructive - red for warnings/threats */
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Warning - orange for unauthorized access */
+    --warning: 25 95% 53%;
+    --warning-foreground: 215 28% 17%;
 
-    --radius: 0.5rem;
+    /* Borders and inputs */
+    --border: 215 25% 30%;
+    --input: 215 25% 25%;
+    --ring: 213 94% 68%;
+
+    /* Timeline and player controls */
+    --timeline-bg: 215 28% 12%;
+    --timeline-accent: 45 93% 47%;
+    --player-bg: 215 28% 15%;
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
