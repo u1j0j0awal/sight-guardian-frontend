@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/dc3e98c1-0b42-4a9b-8596-297d6a30519c
+**URL**: https://sight-guardian-frontend.lovable.app
 
 ## How can I edit this code?
 
